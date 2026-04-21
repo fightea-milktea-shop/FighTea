@@ -2,10 +2,9 @@
    FighTea — App Data & State  (data.js)  v5
    New: sizes optional per item, varieties, promos, logo
    ============================================================ */
+'use strict';
 
 const API_BASE = 'https://fightea-api.vercel.app/api';
-
-'use strict';
 
 const App = {
   currentUser:  null,
