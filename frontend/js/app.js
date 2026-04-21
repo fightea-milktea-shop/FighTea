@@ -392,7 +392,7 @@ function openGCashApp(){
   window.location=`gcash://pay?amount=${total}&merchant=${encodeURIComponent('FighTea')}&note=${encodeURIComponent('FighTea Order')}`;
   setTimeout(()=>{ showToast('GCash app not found. Please send payment manually.','info'); document.getElementById('gcash-manual-section').style.display='block'; },1500);
 }
-function placeOrder(){
+async function placeOrder(){
   if(App.cart.length===0){showToast('Your cart is empty!','error');return;}
   if(!isLoggedIn()){showToast('Please sign in first.','info');showView('auth');return;}
   const gcashRef=selectedPayment==='gcash'?document.getElementById('gcash-ref-input')?.value.trim():null;
