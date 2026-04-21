@@ -1,6 +1,10 @@
 {
   "buildCommand": "",
   "outputDirectory": ".",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/(?!css|js|assets|index\\.html).*", "destination": "/index.html" }
+  ],
   "headers": [
     {
       "source": "/css/(.*)",
