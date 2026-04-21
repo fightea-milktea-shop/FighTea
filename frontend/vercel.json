@@ -1,9 +1,6 @@
 {
   "buildCommand": "",
   "outputDirectory": ".",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/html/index.html" }
-  ],
   "headers": [
     {
       "source": "/css/(.*)",
