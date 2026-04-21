@@ -4,7 +4,7 @@
    ============================================================ */
 'use strict';
 
-const API_BASE = 'https://fightea-api.vercel.app/api';
+const API_BASE = 'https://backend-iiy0dz3zy-fightea-milktea-shops-projects.vercel.app';
 
 const App = {
   currentUser:  null,
