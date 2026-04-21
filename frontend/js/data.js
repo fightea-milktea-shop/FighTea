@@ -3,7 +3,7 @@
    New: sizes optional per item, varieties, promos, logo
    ============================================================ */
 
-const API_BASE = 'http://localhost:4000/api';
+const API_BASE = 'https://fightea-api.vercel.app/api';
 
 'use strict';
 
